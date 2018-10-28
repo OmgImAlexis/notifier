@@ -1,0 +1,35 @@
+{
+  "name": "notifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "main.js",
+  "author": "Alexis Tyler <xo@wvvw.me> (https://wvvw.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "boxcar-notification": "https://github.com/OmgImAlexis/boxcar-notification",
+    "emailjs": "^2.2.0",
+    "esm": "^3.0.84",
+    "pify": "^4.0.1",
+    "standard-errors": "https://github.com/OmgImAlexis/js-standard-errors"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "rules": {
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ]
+    }
+  },
+  "esm": {
+    "mainFields": [
+      "module"
+    ]
+  }
+}
