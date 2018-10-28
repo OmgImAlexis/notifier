@@ -2,17 +2,17 @@ import { ArgumentError } from 'standard-errors';
 import * as services from './services';
 
 /**
- * Notifer
+ * Notifier
  *
  * @export
- * @class Notifer
+ * @class Notifier
  */
-export default class Notifer {
+export default class Notifier {
 	/**
-	 * Creates a Notifer instance
+	 * Creates a Notifier instance
 	 * @param {String} service Service name
 	 * @param {Object} options Any values to bind to `this`
-	 * @memberof Notifer
+	 * @memberof Notifier
 	 */
 	constructor(service, options) {
 		if (!service || !Object.keys(services).includes(service.toString().toLowerCase())) {
