@@ -1,4 +1,4 @@
-import Base from './base';
+import Service from './service';
 
-export default class Pushover extends Base {
+export default class Pushover extends Service {
 }

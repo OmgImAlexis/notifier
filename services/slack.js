@@ -1,4 +1,4 @@
-import Base from './base';
+import Service from './service';
 
-export default class Slack extends Base {
+export default class Slack extends Service {
 }

@@ -1,4 +1,4 @@
-import Base from './base';
+import Service from './service';
 
-export default class Emby extends Base {
+export default class Emby extends Service {
 }

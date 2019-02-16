@@ -1,4 +1,4 @@
-import Base from './base';
+import Service from './service';
 
-export default class Growl extends Base {
+export default class Growl extends Service {
 }

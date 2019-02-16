@@ -1,4 +1,4 @@
-import Base from './base';
+import Service from './service';
 
-export default class Nmjv2 extends Base {
+export default class Nmjv2 extends Service {
 }

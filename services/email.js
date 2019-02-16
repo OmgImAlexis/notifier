@@ -1,9 +1,9 @@
 import pify from 'pify';
 import email from 'emailjs';
 import { ArgumentError } from 'standard-errors';
-import Base from './base';
+import Service from './service';
 
-export default class Email extends Base {
+export default class Email extends Service {
 	constructor(options) {
 		if (!Object.keys(options).includes('to')) {
 			throw new ArgumentError('Missing "to"');

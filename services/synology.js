@@ -1,4 +1,4 @@
-import Base from './base';
+import Service from './service';
 
-export default class Synology extends Base {
+export default class Synology extends Service {
 }

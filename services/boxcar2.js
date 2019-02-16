@@ -1,5 +1,5 @@
 import BoxcarNotification from 'boxcar-notification';
-import Base from './base';
+import Service from './service';
 
 /**
  * Boxcar2
@@ -8,7 +8,7 @@ import Base from './base';
  * @class BoxCar2
  * @extends {Base}
  */
-export default class BoxCar2 extends Base {
+export default class BoxCar2 extends Service {
 	/**
 	 * Push
 	 *
